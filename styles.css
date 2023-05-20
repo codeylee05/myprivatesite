@@ -1,0 +1,62 @@
+* {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+}
+#login-cont {
+    width: 400px;
+    height: 380px;
+    margin-top: 120px;
+    margin-left: 450px;
+    text-align: center;
+    border-radius: 12px 12px 12px 12px;
+    padding: 4px;
+}
+#login-cont:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 150px green;
+}
+.form-inputs {
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+    width: 200px;
+    height: 25px;
+}
+.form-inputs:hover {
+    width: 220px;
+    border-color: green;
+}
+#end-buttons {
+    margin: 30px;
+}
+#subm, #res {
+    border-radius: 10px 10px 10px 10px;
+    width: 60px;
+    height: 25px;
+    border-color: green;;
+}
+#subm:hover, #res:hover {
+    width: 70px;
+}
+#welcome {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    animation: swap-colors 3s infinite;
+}
+  @keyframes swap-colors {
+    0% {
+      color: green;
+    }
+    50% {
+      color: white;
+    }
+    100% {
+      color: green;
+    }
+}
+.err {
+    color: red;
+    font-size: 15px;
+}

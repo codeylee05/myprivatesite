@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="scripts.js"></script>
+    </head>
+    <body>
+        <h2 id="welcome">Welcome Back!</h2>
+        <div id="login-cont">
+            <h3>Login</h3>
+            <form id="login-form" action="access.html">
+                <div class="input-contr">
+                    <label for="un">Username</label>
+                    <input class="form-inputs" id="un" type="name" name="username" placeholder="Enter your username" required>
+                    <div class="err"></div>
+                </div>
+                <div class="input-contr">
+                    <label for="em">Email</label>
+                    <input class="form-inputs" id="em" type="email" name="email" placeholder="Enter your email">
+                    <div class="err"></div>
+                </div>
+                <div class="input-contr">
+                    <label for="ps">Password</label>
+                    <input class="form-inputs" id="ps" type="password" name="password" placeholder="Enter your password" required>
+                    <div class="err"></div>  
+                </div>
+                <div id="end-buttons">
+                    <button id="subm" type="submit">Login</button>
+                    <button id="res" type="reset">Reset</button>
+                </div>
+                <div id="extra">
+                    <a href="pass.html">Forgot your password?</a><br>
+                    <a href="pass.html">Don't have an account?</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
