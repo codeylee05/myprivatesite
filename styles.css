@@ -60,3 +60,9 @@
     color: red;
     font-size: 15px;
 }
+#site-header {
+    text-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 150px green;
+}
+#none {
+    text-align: center;
+}
